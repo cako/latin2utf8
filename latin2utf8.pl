@@ -131,6 +131,8 @@ while (<>) {
 # Misc
     s/\\c c/ç/g;
     s/\\c\{c\}/ç/g;
+    s/\\H o/ő/g;
+    s/\\H{o}/ő/g;
     #s/\\ae/æ/g;
     #s/\\AE/Æ/g;
     #s/\\o/ø/g;
